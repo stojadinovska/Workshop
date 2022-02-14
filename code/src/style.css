@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.small {
+    height: 30vh;
+}
+
+
+.medium {
+    height: 40vh;
+}
+
+.imgBtn {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#loader {
+    height: 15vh;
+    display: none;
+}
+
+button {
+    margin: 15px 8px;
+}
+#nextBtn, #prevBtn {
+    display: none;
+}
+table{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.buttonContainer{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
